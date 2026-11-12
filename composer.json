@@ -532,8 +532,6 @@
                     "liberusoftware/module-maintenance-work-orders-filament": "0.1.0",
                     "liberusoftware/module-maintenance-work-orders-livewire": "0.1.0",
                     "liberusoftware/module-maintenance-work-orders": "0.1.0",
-                    "liberusoftware/module-manager-filament": "1.4.1",
-                    "liberusoftware/module-manager": "1.4.2",
                     "liberusoftware/notifications": "1.4.1",
                     "liberusoftware/observability": "1.4.1",
                     "liberusoftware/organizations-teams-filament": "1.4.1",
@@ -555,6 +553,8 @@
                 }
             },
             "exclude": [
+                "liberusoftware/module-manager",
+                "liberusoftware/module-manager-filament",
                 "liberusoftware/tenancy"
             ]
         },
@@ -681,8 +681,8 @@
         "liberusoftware/module-maintenance-work-orders-api": "0.1.0",
         "liberusoftware/module-maintenance-work-orders-filament": "0.1.0",
         "liberusoftware/module-maintenance-work-orders-livewire": "0.1.0",
-        "liberusoftware/module-manager": "^1.0",
-        "liberusoftware/module-manager-filament": "^1.1",
+        "liberusoftware/module-manager": "^1.9",
+        "liberusoftware/module-manager-filament": "^1.11",
         "liberusoftware/notifications": "^1.0",
         "liberusoftware/observability": "^1.0",
         "liberusoftware/organizations-teams": "^1.0",
