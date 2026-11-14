@@ -2,7 +2,7 @@
   "name": "module-maintenance-commercial-api",
   "display_name": "Maintenance Commercial api",
   "description": "Commercial api presentation adapter.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Commercial\\Api\\CommercialApiServiceProvider",
   "requires": {

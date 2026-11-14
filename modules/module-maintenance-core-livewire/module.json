@@ -3,7 +3,7 @@
   "name": "module-maintenance-core-livewire",
   "display_name": "Maintenance Core Livewire",
   "description": "Livewire 4 organization list and creation interaction for Maintenance Core.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Core\\Livewire\\MaintenanceCoreLivewireServiceProvider",
   "requires": {

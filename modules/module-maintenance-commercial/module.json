@@ -2,7 +2,7 @@
   "name": "module-maintenance-commercial",
   "display_name": "Maintenance Commercial",
   "description": "Tenant-scoped commercial records and workflows.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "capability",
   "provider": "Liberu\\Modules\\Maintenance\\Commercial\\CommercialServiceProvider",
   "requires": {

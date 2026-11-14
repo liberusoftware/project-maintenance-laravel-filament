@@ -2,7 +2,7 @@
   "name": "module-maintenance-reporting",
   "display_name": "Maintenance Reporting",
   "description": "Tenant-scoped reporting records and workflows.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "capability",
   "provider": "Liberu\\Modules\\Maintenance\\Report\\ReportServiceProvider",
   "requires": {

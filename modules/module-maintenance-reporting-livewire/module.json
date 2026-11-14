@@ -2,7 +2,7 @@
   "name": "module-maintenance-reporting-livewire",
   "display_name": "Maintenance Reporting livewire",
   "description": "Reporting livewire presentation adapter.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Reporting\\Livewire\\ReportingLivewireServiceProvider",
   "requires": {

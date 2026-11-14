@@ -3,7 +3,7 @@
   "name": "module-maintenance-core-api",
   "display_name": "Maintenance Core API",
   "description": "Sanctum-protected HTTP API for Maintenance Core organizations.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Core\\Api\\MaintenanceCoreApiServiceProvider",
   "requires": {
