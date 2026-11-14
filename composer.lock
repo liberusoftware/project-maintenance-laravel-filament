@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07dc1604d78411452e1c167770e73977",
+    "content-hash": "ab39290b029f9a8d12a843a2091f7b60",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -7452,6 +7452,95 @@
             "time": "2026-11-02T15:48:18+00:00"
         },
         {
+            "name": "liberusoftware/module-maintenance-documents",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liberusoftware/module-maintenance-documents.git",
+                "reference": "2872066b5cf432be48e75b1c44375e9b3dea0218"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liberusoftware/module-maintenance-documents/zipball/2872066b5cf432be48e75b1c44375e9b3dea0218",
+                "reference": "2872066b5cf432be48e75b1c44375e9b3dea0218",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^13.0",
+                "illuminate/support": "^13.0",
+                "liberusoftware/files-media": "^1.0",
+                "liberusoftware/module-manager": "^1.0",
+                "liberusoftware/organizations-teams": "^1.0",
+                "php": "^8.5"
+            },
+            "type": "liberu-module",
+            "extra": {
+                "liberu": {
+                    "name": "module-maintenance-documents",
+                    "provider": "Liberu\\Modules\\Maintenance\\Documents\\DocumentsServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Liberu\\Modules\\Maintenance\\Documents\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Tenant-scoped maintenance document management.",
+            "support": {
+                "issues": "https://github.com/liberusoftware/module-maintenance-documents/issues",
+                "source": "https://github.com/liberusoftware/module-maintenance-documents/tree/v0.1.0"
+            },
+            "time": "2026-11-14T19:37:51+00:00"
+        },
+        {
+            "name": "liberusoftware/module-maintenance-documents-api",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liberusoftware/module-maintenance-documents-api.git",
+                "reference": "0d690e38904f26378ac865b01e87275931080f98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liberusoftware/module-maintenance-documents-api/zipball/0d690e38904f26378ac865b01e87275931080f98",
+                "reference": "0d690e38904f26378ac865b01e87275931080f98",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "^13.0",
+                "illuminate/routing": "^13.0",
+                "laravel/sanctum": "^4.0",
+                "liberusoftware/module-maintenance-documents": "^0.1.0",
+                "php": "^8.5"
+            },
+            "type": "liberu-module",
+            "extra": {
+                "liberu": {
+                    "name": "module-maintenance-documents-api",
+                    "provider": "Liberu\\Modules\\Maintenance\\Documents\\Api\\DocumentsApiServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Liberu\\Modules\\Maintenance\\Documents\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Maintenance documents API presentation adapter.",
+            "support": {
+                "issues": "https://github.com/liberusoftware/module-maintenance-documents-api/issues",
+                "source": "https://github.com/liberusoftware/module-maintenance-documents-api/tree/v0.1.0"
+            },
+            "time": "2026-11-14T19:37:43+00:00"
+        },
+        {
             "name": "liberusoftware/module-maintenance-inspections",
             "version": "0.1.0",
             "source": {
@@ -8011,6 +8100,94 @@
                 "source": "https://github.com/liberusoftware/maintenance-maintenance-core/tree/v0.1.0"
             },
             "time": "2026-10-26T23:16:21+00:00"
+        },
+        {
+            "name": "liberusoftware/module-maintenance-notes",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liberusoftware/module-maintenance-notes.git",
+                "reference": "d076ec36a86d4b991fedb9d39ff05ebcbd70b1c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liberusoftware/module-maintenance-notes/zipball/d076ec36a86d4b991fedb9d39ff05ebcbd70b1c0",
+                "reference": "d076ec36a86d4b991fedb9d39ff05ebcbd70b1c0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^13.0",
+                "illuminate/support": "^13.0",
+                "liberusoftware/module-manager": "^1.0",
+                "liberusoftware/organizations-teams": "^1.0",
+                "php": "^8.5"
+            },
+            "type": "liberu-module",
+            "extra": {
+                "liberu": {
+                    "name": "module-maintenance-notes",
+                    "provider": "Liberu\\Modules\\Maintenance\\Notes\\NotesServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Liberu\\Modules\\Maintenance\\Notes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Tenant-scoped notes for maintenance customer and commercial workflows.",
+            "support": {
+                "issues": "https://github.com/liberusoftware/module-maintenance-notes/issues",
+                "source": "https://github.com/liberusoftware/module-maintenance-notes/tree/v0.1.0"
+            },
+            "time": "2026-11-14T19:38:21+00:00"
+        },
+        {
+            "name": "liberusoftware/module-maintenance-notes-api",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liberusoftware/module-maintenance-notes-api.git",
+                "reference": "23ee4aead52711d075d114342ad84d5274b1b0fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liberusoftware/module-maintenance-notes-api/zipball/23ee4aead52711d075d114342ad84d5274b1b0fc",
+                "reference": "23ee4aead52711d075d114342ad84d5274b1b0fc",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "^13.0",
+                "illuminate/routing": "^13.0",
+                "laravel/sanctum": "^4.0",
+                "liberusoftware/module-maintenance-notes": "^0.1.0",
+                "php": "^8.5"
+            },
+            "type": "liberu-module",
+            "extra": {
+                "liberu": {
+                    "name": "module-maintenance-notes-api",
+                    "provider": "Liberu\\Modules\\Maintenance\\Notes\\Api\\NotesApiServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Liberu\\Modules\\Maintenance\\Notes\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Maintenance notes API presentation adapter.",
+            "support": {
+                "issues": "https://github.com/liberusoftware/module-maintenance-notes-api/issues",
+                "source": "https://github.com/liberusoftware/module-maintenance-notes-api/tree/v0.1.0"
+            },
+            "time": "2026-11-14T19:38:28+00:00"
         },
         {
             "name": "liberusoftware/module-maintenance-portals",
@@ -8871,6 +9048,94 @@
                 "source": "https://github.com/liberusoftware/module-maintenance-scheduling-livewire/tree/v0.1.1"
             },
             "time": "2026-11-02T15:49:41+00:00"
+        },
+        {
+            "name": "liberusoftware/module-maintenance-tasks",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liberusoftware/module-maintenance-tasks.git",
+                "reference": "602e1b5b375909375962ad390e2bdaa8b301f150"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liberusoftware/module-maintenance-tasks/zipball/602e1b5b375909375962ad390e2bdaa8b301f150",
+                "reference": "602e1b5b375909375962ad390e2bdaa8b301f150",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^13.0",
+                "illuminate/support": "^13.0",
+                "liberusoftware/module-manager": "^1.0",
+                "liberusoftware/organizations-teams": "^1.0",
+                "php": "^8.5"
+            },
+            "type": "liberu-module",
+            "extra": {
+                "liberu": {
+                    "name": "module-maintenance-tasks",
+                    "provider": "Liberu\\Modules\\Maintenance\\Tasks\\TasksServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Liberu\\Modules\\Maintenance\\Tasks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Tenant-scoped maintenance tasks and assignments.",
+            "support": {
+                "issues": "https://github.com/liberusoftware/module-maintenance-tasks/issues",
+                "source": "https://github.com/liberusoftware/module-maintenance-tasks/tree/v0.1.0"
+            },
+            "time": "2026-11-14T19:39:07+00:00"
+        },
+        {
+            "name": "liberusoftware/module-maintenance-tasks-api",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liberusoftware/module-maintenance-tasks-api.git",
+                "reference": "8db591cf0e510c8bbdc6acec67dd3cec91061c0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liberusoftware/module-maintenance-tasks-api/zipball/8db591cf0e510c8bbdc6acec67dd3cec91061c0f",
+                "reference": "8db591cf0e510c8bbdc6acec67dd3cec91061c0f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "^13.0",
+                "illuminate/routing": "^13.0",
+                "laravel/sanctum": "^4.0",
+                "liberusoftware/module-maintenance-tasks": "^0.1.0",
+                "php": "^8.5"
+            },
+            "type": "liberu-module",
+            "extra": {
+                "liberu": {
+                    "name": "module-maintenance-tasks-api",
+                    "provider": "Liberu\\Modules\\Maintenance\\Tasks\\Api\\TasksApiServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Liberu\\Modules\\Maintenance\\Tasks\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Maintenance tasks API presentation adapter.",
+            "support": {
+                "issues": "https://github.com/liberusoftware/module-maintenance-tasks-api/issues",
+                "source": "https://github.com/liberusoftware/module-maintenance-tasks-api/tree/v0.1.0"
+            },
+            "time": "2026-11-14T19:39:10+00:00"
         },
         {
             "name": "liberusoftware/module-maintenance-work-orders",

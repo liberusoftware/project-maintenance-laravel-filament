@@ -161,19 +161,19 @@
   },
   "liberusoftware/module-maintenance-assets": {
     "path": "modules/module-maintenance-assets",
-    "reference": "5e407999d49fa5b88db724a9d1ea82daa7720674",
+    "reference": "8ef2d413f99c0c04aa578515fd2798418f112138",
     "repository": "https://github.com/liberusoftware/module-maintenance-assets",
-    "source_signature": "b7853888361fad7d797e7d233c6b5da3ee94ef9c2cac0762e2bb062adfafe2eb",
-    "source_tree": "770bd172e409de06e54c4174579809b04c6da52f",
-    "version": "0.1.0"
+    "source_signature": "d451d54c582fb454cac1b87ce6b5f117f2541bc4a3fc5528d3d13463b9b0b2c9",
+    "source_tree": "f2b51318a18c7505f131a8dce149e77fc0980e9b",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-assets-api": {
     "path": "modules/module-maintenance-assets-api",
-    "reference": "344a4a2f4cba39318db15e0c6900f9705cab220f",
+    "reference": "96bd285c0dc5d0f9096a25ec452093fc455d966b",
     "repository": "https://github.com/liberusoftware/module-maintenance-assets-api",
-    "source_signature": "cfb2ef857446d1a4f097b97012c9ea8746be66134dbb61738e1b88b2b1c20594",
-    "source_tree": "027205bb648b076ec604ef5edb083f3cd54e7bb0",
-    "version": "0.1.1"
+    "source_signature": "2b516a8cf51e9faa03d4d1e98aa15a852665a9a2416824c0a174e73268dc145a",
+    "source_tree": "700c10cd32349dec8521353cf380dea5ff323e21",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-assets-filament": {
     "path": "modules/module-maintenance-assets-filament",
@@ -190,6 +190,38 @@
     "source_signature": "32a92f68442c2b49dc45fe7304766f73454c1bd2225e13b25f7ba90debcf0705",
     "source_tree": "4513c763c299f35f97934f5e905b249371557793",
     "version": "0.1.1"
+  },
+  "liberusoftware/module-maintenance-commercial": {
+    "path": "modules/module-maintenance-commercial",
+    "reference": "ed17cd27099b0f928224456a3dbc3a57fb3c6e70",
+    "repository": "https://github.com/liberusoftware/module-maintenance-commercial",
+    "source_signature": "3b051451357d7ea4ce6e886de1310b56177fc1fa046680df227d6dd079ef2f1f",
+    "source_tree": "a4ae3bc6e75c36274f0754929b0deb6145e581eb",
+    "version": "0.1.2"
+  },
+  "liberusoftware/module-maintenance-commercial-api": {
+    "path": "modules/module-maintenance-commercial-api",
+    "reference": "c88b3e3557ff860f874f28fc4e0731fde9f7b13e",
+    "repository": "https://github.com/liberusoftware/module-maintenance-commercial-api",
+    "source_signature": "e2ec261cfafab688bca71ae6a4a84f6ac917a15a143654eaef79e3a5af0f8276",
+    "source_tree": "1b8d72d671a6b341ad28e0e4de2098fa93e2b91e",
+    "version": "0.1.2"
+  },
+  "liberusoftware/module-maintenance-compliance": {
+    "path": "modules/module-maintenance-compliance",
+    "reference": "69694de0854b4dad443f9c014573886f37a9e5b5",
+    "repository": "https://github.com/liberusoftware/module-maintenance-compliance",
+    "source_signature": "2bb022518718e9582f3943544998ad90db9f782b232c70af53b50a57e186f2fe",
+    "source_tree": "d4f5e883833a56675a645c8326ab3fb6286b013c",
+    "version": "0.1.2"
+  },
+  "liberusoftware/module-maintenance-compliance-api": {
+    "path": "modules/module-maintenance-compliance-api",
+    "reference": "c4bd698a215582d5cae22c5bb8d66400e8a1da71",
+    "repository": "https://github.com/liberusoftware/module-maintenance-compliance-api",
+    "source_signature": "0cae15e89838b854aae8f878f8bc9a8579f16032d9cf796cadd9bb10cbbd5b95",
+    "source_tree": "1586fcaabf1a50071cbd0936b977e5d777e0914f",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-core-api": {
     "path": "modules/module-maintenance-core-api",
@@ -217,19 +249,19 @@
   },
   "liberusoftware/module-maintenance-customers-and-sites": {
     "path": "modules/module-maintenance-customers-and-sites",
-    "reference": "fc139259774d7daf5854d9faca44ee2423c051af",
+    "reference": "fb0b32f0c866bf844ef8a85229862a07cead4f98",
     "repository": "https://github.com/liberusoftware/module-maintenance-customers-and-sites",
-    "source_signature": "e6f9618007cd985bd210811b9308dda7195802a95f8c6b2c92f2b25c9ffa73b4",
-    "source_tree": "87389cebb86bab11b74a04cb050f7ab6f751ef19",
-    "version": "0.1.1"
+    "source_signature": "b62d78e1921c38a64a1c9407c2f253845cd60eaed2809155375446a6c0d54d28",
+    "source_tree": "269124703d4f00c5fec93e8c103e3c11c65bcd9d",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-customers-and-sites-api": {
     "path": "modules/module-maintenance-customers-and-sites-api",
-    "reference": "250ab97604ab3414df51e0ea608cccb0161e9c5a",
+    "reference": "17946514249ec5564a88d5b7f5ed2b51e6ea8ee0",
     "repository": "https://github.com/liberusoftware/module-maintenance-customers-and-sites-api",
-    "source_signature": "0a2f4aaf3123dfb6eaa4781fa48f487813171423dc226ea51799fd91205aefa9",
-    "source_tree": "de213bc10eb869f5083c8edace6e7f3bd32a9767",
-    "version": "0.1.1"
+    "source_signature": "cf84dd5885414666dcc63b77b168ccd2f4fd3fe3a89a685b3bb51a4b3a424203",
+    "source_tree": "0a371e52e4572c930694523c820bff19bb57076b",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-customers-and-sites-filament": {
     "path": "modules/module-maintenance-customers-and-sites-filament",
@@ -247,53 +279,69 @@
     "source_tree": "1dcceccdc34ce7a3a27cce86f2778d7691da9cd2",
     "version": "0.1.1"
   },
+  "liberusoftware/module-maintenance-documents": {
+    "path": "modules/module-maintenance-documents",
+    "reference": "2872066b5cf432be48e75b1c44375e9b3dea0218",
+    "repository": "https://github.com/liberusoftware/module-maintenance-documents",
+    "source_signature": "f5522a07976114d19b58495256ea912b2271c122f584cae254f2a56744dbff98",
+    "source_tree": "b336258c5e385710f2ca4c669751ac689524bfc8",
+    "version": "0.1.0"
+  },
+  "liberusoftware/module-maintenance-documents-api": {
+    "path": "modules/module-maintenance-documents-api",
+    "reference": "0d690e38904f26378ac865b01e87275931080f98",
+    "repository": "https://github.com/liberusoftware/module-maintenance-documents-api",
+    "source_signature": "70e2ba21bf3532d0ec502eddd83be011e19271f537294c1589f162198f2ff9fa",
+    "source_tree": "d2a073e03a71fc2a5b45c235e898cef7e5877cc7",
+    "version": "0.1.0"
+  },
   "liberusoftware/module-maintenance-inspections": {
     "path": "modules/module-maintenance-inspections",
-    "reference": "ec07578420334e34c6ef6bb94ec9be79e00bfdce",
+    "reference": "94d28489123c581f69569f97d6f01a5cfb8a7304",
     "repository": "https://github.com/liberusoftware/module-maintenance-inspections",
-    "source_signature": "f9fd9ca6c8496ce9587db882841855709fcb04fbdcaf8c25037b3dd0a37316cf",
-    "source_tree": "f4ee9ff233d98ad083f597588f8d4a06011b94a2",
-    "version": "0.1.0"
+    "source_signature": "7e83c3f83f149f26f230e3da0125d5ff40e9f0e00e1ffba1e9e45f4db37a9416",
+    "source_tree": "822a5f0864376908dec96e3d9962601ae521b6f9",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-inspections-api": {
     "path": "modules/module-maintenance-inspections-api",
-    "reference": "f75cd0a910e2783547c3cf04529009b218a534e6",
+    "reference": "3b4e50a47f2a47f4ab23d4f18b08d71ef3b832bd",
     "repository": "https://github.com/liberusoftware/module-maintenance-inspections-api",
-    "source_signature": "332fede446f2085f5cb8d091dbf1373fa4e02c32bba2e719c393e0c0dc083f1a",
-    "source_tree": "667fb18ed51093c20ba2a35b9b75c89e18700135",
-    "version": "0.1.1"
+    "source_signature": "54342064784fa3b58a1335649d33c9cad15b03dc1a9217656daf51ad75ce1f47",
+    "source_tree": "ea66622a0512cc844e555a4549995a75999ef714",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-inspections-filament": {
     "path": "modules/module-maintenance-inspections-filament",
-    "reference": "407a9e01e9a0059c8c840407da4b89cbd85e64e4",
+    "reference": "d733e895be88f3f24aa56aff456086f11d1bb5d6",
     "repository": "https://github.com/liberusoftware/module-maintenance-inspections-filament",
-    "source_signature": "8f90cb704f7890ffbbbf931de9182a79322996c687a58d4e04f9dd398263988f",
-    "source_tree": "8fbd707ed1ced2859e5d448369b5b2816efb53c7",
-    "version": "0.1.1"
+    "source_signature": "6cde85ce210789bd605cc2f8af2df6d40bfa1ec01844f4c92b29c2bd6913fa3f",
+    "source_tree": "5c2543de4100dc7fbaf812149bc974dfdc0ee654",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-inspections-livewire": {
     "path": "modules/module-maintenance-inspections-livewire",
     "reference": "a9960abb752029b5180725669bb1cf8a52190865",
     "repository": "https://github.com/liberusoftware/module-maintenance-inspections-livewire",
     "source_signature": "b700ed8d735a19cd3f3e81eb9457ebe18ca4c9eb384ae18a1b7d1e345e5bf3f8",
-    "source_tree": "9675f0f5ace947ea898af77b388064c3522b9740",
+    "source_tree": "658a8f43595c33647cd7ef78a3b33e8392519fed",
     "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-inventory": {
     "path": "modules/module-maintenance-inventory",
-    "reference": "072c03d3536e38498c68484df28abf189f17bd64",
+    "reference": "ae0ec4d1046fc0fb5b071f5ba01626a298828ece",
     "repository": "https://github.com/liberusoftware/module-maintenance-inventory",
-    "source_signature": "7c86bf75fcaec8d1d3c4e6443e6470065e5a0315d354df7802e1c2538856d763",
-    "source_tree": "69604196a188df99244bc8ec595118c773c53659",
-    "version": "0.1.0"
+    "source_signature": "ada02954b42a19da9302b095140456ec80c82a16652f465834dff6806ea6722d",
+    "source_tree": "07f9f935711c2d7bb8dc0218fd3192aa2e854183",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-inventory-api": {
     "path": "modules/module-maintenance-inventory-api",
-    "reference": "628de5c77ce5b0886c9119e5e6d3eba2574c6d31",
+    "reference": "b35c571ae60d9d38dcb950dedb73aee5be01c486",
     "repository": "https://github.com/liberusoftware/module-maintenance-inventory-api",
-    "source_signature": "24443f21b0127caa0624638f8a31c17c6989b39656e6ca53e8d0edb593fc2685",
-    "source_tree": "6e70267bed77d0b82ad18ceceacf484cc3c29be6",
-    "version": "0.1.1"
+    "source_signature": "efa9ca12f331a0820b612aaa915b2bf8f476b440b6c1f44b8fc8b45366b16f68",
+    "source_tree": "c7e83f485a1fdf5596054787447d7759b1489bce",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-inventory-filament": {
     "path": "modules/module-maintenance-inventory-filament",
@@ -313,19 +361,19 @@
   },
   "liberusoftware/module-maintenance-labor-and-time": {
     "path": "modules/module-maintenance-labor-and-time",
-    "reference": "63ecd069697d8fcc847540345ef91aa7da7e9365",
+    "reference": "033fb0cc6abce7b746bbd7d23f3869d9ea7e7a26",
     "repository": "https://github.com/liberusoftware/module-maintenance-labor-and-time",
-    "source_signature": "d12b0167847faa0539e464d6b1ba83ed15593483451f0abb029946929894af3f",
-    "source_tree": "f605f09adb5042c25e61d4dc8dba4e85377521a6",
-    "version": "0.1.0"
+    "source_signature": "aaf9c85bd7e12f6d5fb07539b145309d1c9f20e10977518fdefaab0cbc62e834",
+    "source_tree": "9d1f28f21e82e457bbe6224476d2a7c3e3818c77",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-labor-and-time-api": {
     "path": "modules/module-maintenance-labor-and-time-api",
-    "reference": "d95ad1fd2e512fcd7ff57fe856993b82c603d5e6",
+    "reference": "8a428b5454883f692fce60b51b421875f05cb742",
     "repository": "https://github.com/liberusoftware/module-maintenance-labor-and-time-api",
-    "source_signature": "d3c4b38d127228abedc9a10fc8c94074b1eac3c445c58dff99786e34f53ea90e",
-    "source_tree": "0e03d4f4e8044193e4d57e77dad86e3e10f53772",
-    "version": "0.1.1"
+    "source_signature": "80d36cbd42585c01d1f54bc11f9566da8f616b5138ce47abd4f901b7d0441da1",
+    "source_tree": "90b572eb623cd66c46c45830a299150fa94f8e0c",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-labor-and-time-filament": {
     "path": "modules/module-maintenance-labor-and-time-filament",
@@ -351,21 +399,45 @@
     "source_tree": "7f630a77cc0e6a10894c00f27d16f675c157a0de",
     "version": "0.1.0"
   },
+  "liberusoftware/module-maintenance-notes": {
+    "path": "modules/module-maintenance-notes",
+    "reference": "d076ec36a86d4b991fedb9d39ff05ebcbd70b1c0",
+    "repository": "https://github.com/liberusoftware/module-maintenance-notes",
+    "source_signature": "dbf6de0bf1d7995c00cb20f67c9178c155919f81a5fe2b4d76fc661ec5757cdb",
+    "source_tree": "4f0671032727881b6a29582f193d99ceb99fd3b7",
+    "version": "0.1.0"
+  },
+  "liberusoftware/module-maintenance-notes-api": {
+    "path": "modules/module-maintenance-notes-api",
+    "reference": "23ee4aead52711d075d114342ad84d5274b1b0fc",
+    "repository": "https://github.com/liberusoftware/module-maintenance-notes-api",
+    "source_signature": "da74a5cd746ee9aca83e5d8cca6b9815e34e61e33e1f2893aeae6a1df8421987",
+    "source_tree": "6c5880e7564da8511612400de2121b84fba6db59",
+    "version": "0.1.0"
+  },
+  "liberusoftware/module-maintenance-portals-filament": {
+    "path": "modules/module-maintenance-portals-filament",
+    "reference": "3d8e4aa6cc7c221542c2769bd29d884d51e890bf",
+    "repository": "https://github.com/liberusoftware/module-maintenance-portals-filament",
+    "source_signature": "42691b9656817e5a1231441eb472ab0cabac262fca9c7fa8d66807eb0efb3283",
+    "source_tree": "5b496740f698eb6edafca1716fecea06eaa8067b",
+    "version": "0.1.2"
+  },
   "liberusoftware/module-maintenance-preventative-maintenance": {
     "path": "modules/module-maintenance-preventative-maintenance",
-    "reference": "cfc9a85084b71f8466a34afb945b6aca63a6e0e1",
+    "reference": "294fcf5b21b9c78a8e289b11069f3eec470fa2e6",
     "repository": "https://github.com/liberusoftware/module-maintenance-preventative-maintenance",
-    "source_signature": "b200ca756d2bff52c97c35bd14ab6b9d1d6beba3b793d77ed3b8d70b45abe7cf",
-    "source_tree": "869c4de7f412c557609d1c499ba85fbe0ecdd666",
-    "version": "0.1.0"
+    "source_signature": "a278aad8efb6689bbac1c7969ac707293cbbe2814bd4b29685bf6c0af985a3a3",
+    "source_tree": "d9322e13b2a7b10a91443c703a368376034bc399",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-preventative-maintenance-api": {
     "path": "modules/module-maintenance-preventative-maintenance-api",
-    "reference": "410b7f45962cf9b789e7367d9761a99b72247eca",
+    "reference": "aeb3615eb76cb63730a3f82d6614f5cdb509682a",
     "repository": "https://github.com/liberusoftware/module-maintenance-preventative-maintenance-api",
-    "source_signature": "7f6813e4c5bfce2925e894e88a8e9ca8f3fce210a8778390dc72e89da28dcb4e",
-    "source_tree": "425671f086f7bfb4415574d9eca7a853d265c12f",
-    "version": "0.1.1"
+    "source_signature": "bf0f2a63318d4cf13fbb48d42741ba96d8d82dc031978f02a35b0381ed0e38e3",
+    "source_tree": "01c0b9a869ce680c73e35cb47fc28e1e7d5ddb65",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-preventative-maintenance-filament": {
     "path": "modules/module-maintenance-preventative-maintenance-filament",
@@ -385,19 +457,19 @@
   },
   "liberusoftware/module-maintenance-procurement": {
     "path": "modules/module-maintenance-procurement",
-    "reference": "16e44118165a3c54f00d5a5acf18967cb8340989",
+    "reference": "f76e004ec8332b53ba46ce1bff1a29380844d023",
     "repository": "https://github.com/liberusoftware/module-maintenance-procurement",
-    "source_signature": "4fab9f185a57f3b1ec9bc043a4466404f21084bf579c08437de544e39ff1bb60",
-    "source_tree": "4fc14b664c97edc228bf3db102acc32c7fcb3f3b",
-    "version": "0.1.0"
+    "source_signature": "a2995d1c1cdbef09e3759618c6384c89bdafae5b9a3589f8197d133f205f11a2",
+    "source_tree": "0d77da9f85ae84d2edadc9c246501834e957ffaf",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-procurement-api": {
     "path": "modules/module-maintenance-procurement-api",
-    "reference": "5b4a50be7fc7f38bcaac07cf77b3bbae4961ffbe",
+    "reference": "d44fac8d6123b3fd029e9fcbf97ce629cf439873",
     "repository": "https://github.com/liberusoftware/module-maintenance-procurement-api",
-    "source_signature": "0e067f965815180539414026624d360d4f7434b0b2ddda461a5638d126abb41e",
-    "source_tree": "fdf10a701f31e75ea3bf80ffbc72c3cc25381b4b",
-    "version": "0.1.1"
+    "source_signature": "4f4fdbfeb25fa0c13f740befd135421ab4a7febb3432ff778cc9092e98ebda84",
+    "source_tree": "2ba4e76afa9f83ac80ece9276e2872d543194e63",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-procurement-filament": {
     "path": "modules/module-maintenance-procurement-filament",
@@ -415,21 +487,45 @@
     "source_tree": "0dd0ad887ab057ceea7faa9702c9d585c060c8d0",
     "version": "0.1.1"
   },
+  "liberusoftware/module-maintenance-reporting": {
+    "path": "modules/module-maintenance-reporting",
+    "reference": "8ad5ddb860cf26b61a7e4058e3e2e76301039843",
+    "repository": "https://github.com/liberusoftware/module-maintenance-reporting",
+    "source_signature": "37fd4bd5de850e3b586f32f0d98a2c11857330ed969e443c7f8f9865b7017112",
+    "source_tree": "c7d21c53afa2e365a698947dcf15b36122311240",
+    "version": "0.1.2"
+  },
+  "liberusoftware/module-maintenance-reporting-api": {
+    "path": "modules/module-maintenance-reporting-api",
+    "reference": "37f937621bf69ad8a7b76e5dc1ee2931e12f10b8",
+    "repository": "https://github.com/liberusoftware/module-maintenance-reporting-api",
+    "source_signature": "b41982de888441e2b81357a780049031ac6fda6917b3f7c8d97e133beda38c63",
+    "source_tree": "7ded02551e49a6a15ca90b3793037e731bf7d468",
+    "version": "0.1.2"
+  },
+  "liberusoftware/module-maintenance-reporting-filament": {
+    "path": "modules/module-maintenance-reporting-filament",
+    "reference": "8934ec931fb3526904fd02bbf2ae1e0ec99ef1be",
+    "repository": "https://github.com/liberusoftware/module-maintenance-reporting-filament",
+    "source_signature": "af93e23f14abe5c5bfdd4a280773ed3230556906675bffbe8ba4016247940245",
+    "source_tree": "3c8d7047fc0fe9337eeea466a1e8cab8b39b2545",
+    "version": "0.1.2"
+  },
   "liberusoftware/module-maintenance-scheduling": {
     "path": "modules/module-maintenance-scheduling",
-    "reference": "af2c8982508a95696f4204ebe318aa54c6e9441f",
+    "reference": "ca5d2d4c02717367f5fe9e852315be4c619c9615",
     "repository": "https://github.com/liberusoftware/module-maintenance-scheduling",
-    "source_signature": "8c8f0a2a9c607c7448fb7e366d663ec92228629e42e1c8caed579ee08640d8d5",
-    "source_tree": "ff27c124ddcec6f30e2298c41eb376ce1147b8f4",
-    "version": "0.1.0"
+    "source_signature": "622d3946a0dd81e585b9d8003c48f02241dbecd5ce74aa8b3cacea283b25f1f9",
+    "source_tree": "e5391c890304e84fc6f8d890def57383f3244a2b",
+    "version": "0.1.1"
   },
   "liberusoftware/module-maintenance-scheduling-api": {
     "path": "modules/module-maintenance-scheduling-api",
-    "reference": "8f7c5621dfa5987f1d55c103c5dd621ecfb7b41d",
+    "reference": "399e63bb9dc2010fafec1009c114924cfda1a0ae",
     "repository": "https://github.com/liberusoftware/module-maintenance-scheduling-api",
-    "source_signature": "82b858ef025a8fe6de4a02f85485b625b5be62d219dbfa0ddc1f7c0f0df74858",
-    "source_tree": "42e58c2bcce9ebe37eb5dac4d6a00a20303da88a",
-    "version": "0.1.1"
+    "source_signature": "135838015aa64692448984884fd42e33a0687924f4ade0e37088b77401bf3eb8",
+    "source_tree": "afd354f4535b8afb704f2d26d14720e3c107614c",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-scheduling-filament": {
     "path": "modules/module-maintenance-scheduling-filament",
@@ -447,21 +543,37 @@
     "source_tree": "aeeddedc590ea83fed7f3ffbed65bd8a72de0045",
     "version": "0.1.1"
   },
+  "liberusoftware/module-maintenance-tasks": {
+    "path": "modules/module-maintenance-tasks",
+    "reference": "602e1b5b375909375962ad390e2bdaa8b301f150",
+    "repository": "https://github.com/liberusoftware/module-maintenance-tasks",
+    "source_signature": "4128e2f14d6e09c0ca0114796f11f0b8adfe5d597824d3bc062c8284c59f0132",
+    "source_tree": "460aec59985e341f3c89a8dc0cf21a36daaaa10b",
+    "version": "0.1.0"
+  },
+  "liberusoftware/module-maintenance-tasks-api": {
+    "path": "modules/module-maintenance-tasks-api",
+    "reference": "8db591cf0e510c8bbdc6acec67dd3cec91061c0f",
+    "repository": "https://github.com/liberusoftware/module-maintenance-tasks-api",
+    "source_signature": "d16e012714af41564974e81aaa1a1615e1da866f480833afb01d1993dd5b16f8",
+    "source_tree": "c9f0764e2978f01fd0fc01403a2862e0d6bd332f",
+    "version": "0.1.0"
+  },
   "liberusoftware/module-maintenance-work-orders": {
     "path": "modules/module-maintenance-work-orders",
-    "reference": "6bf7788c483315d321f6c32c58f9b32bc8c1b7f1",
+    "reference": "bac3ca0b4780699430f5c500e90c0c0d72123cf5",
     "repository": "https://github.com/liberusoftware/module-maintenance-work-orders",
-    "source_signature": "711e91bf49272a7d3fdc12875d46d17383678dc88d0154441289f57d80a40213",
-    "source_tree": "1766d93dbf0b404c92f1438b99c3d5e7361c18f8",
-    "version": "0.1.1"
+    "source_signature": "79212b972e4ead0de2593a326f9fe99a0b4f39a91086b294b55f90fafe383423",
+    "source_tree": "27152c465927c7293d441a632b16d1787f8f0564",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-work-orders-api": {
     "path": "modules/module-maintenance-work-orders-api",
-    "reference": "b37efc58f5c1f0eac846f7bb3b82f3e7b706d601",
+    "reference": "65d6fd56ebf54d083054684fbde047bbcca26da7",
     "repository": "https://github.com/liberusoftware/module-maintenance-work-orders-api",
-    "source_signature": "01569e22da05961eb5784f6a4ce643d786778954e47a95849b62a386720d4775",
-    "source_tree": "1b4867b59414fa405613e11d9a7421c05d97b887",
-    "version": "0.1.1"
+    "source_signature": "847892c9813631b3ece6609abf7990642e80dbf383d2d23047b9e94f2c4deef0",
+    "source_tree": "0aa640006d0bc8023c3303c35fdc430ad934f92e",
+    "version": "0.1.2"
   },
   "liberusoftware/module-maintenance-work-orders-filament": {
     "path": "modules/module-maintenance-work-orders-filament",

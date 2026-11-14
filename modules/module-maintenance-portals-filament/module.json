@@ -2,7 +2,7 @@
   "name": "module-maintenance-portals-filament",
   "display_name": "Maintenance Portals filament",
   "description": "Portals filament presentation adapter.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Portals\\Filament\\PortalsFilamentServiceProvider",
   "requires": {
