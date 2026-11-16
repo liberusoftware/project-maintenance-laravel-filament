@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use JoelButcher\Socialstream\HasConnectedAccounts;
 use JoelButcher\Socialstream\SetsProfilePhotoFromUrl;
@@ -33,6 +34,7 @@ use Spatie\Permission\Traits\HasRoles;
 /**
  * @property string|null $theme_preference
  * @property string|null $locale
+ * @property Carbon|null $onboarding_completed_at
  */
 class User extends Authenticatable implements ConnectedAccountOwner, FilamentUser, HasDefaultTenant, HasTenants, ObservabilityActor, OrganizationActor, PrivilegedActor
 {
@@ -97,6 +99,7 @@ class User extends Authenticatable implements ConnectedAccountOwner, FilamentUse
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'onboarding_completed_at' => 'datetime',
     ];
 
     /**
