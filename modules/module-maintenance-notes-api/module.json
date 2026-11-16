@@ -6,8 +6,19 @@
   "version": "0.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Notes\\Api\\NotesApiServiceProvider",
-  "requires": { "php": "^8.5", "laravel": "^13.0", "packages": { "liberusoftware/module-maintenance-notes": "0.1.0" } },
-  "capabilities": ["maintenance.notes.api"],
+  "requires": {
+    "php": "^8.5",
+    "laravel": "^13.0",
+    "packages": {
+      "liberusoftware/module-maintenance-notes": "^0.1.0"
+    }
+  },
+  "capabilities": [
+    "maintenance.notes.api"
+  ],
   "default_enabled": true,
-  "features": ["Note CRUD", "Tenant isolation"]
+  "features": [
+    "Note CRUD",
+    "Tenant isolation"
+  ]
 }

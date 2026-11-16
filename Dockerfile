@@ -18,6 +18,9 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Copy composer files
 COPY composer.json composer.lock ./
+
+# Composer path repositories must exist in the dependency build stage.
+COPY themes ./themes
 # Path repositories must be present while Composer resolves the lockfile.
 COPY modules ./modules
 
@@ -143,6 +146,8 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Copy vendor from composer-deps stage for better caching
 COPY --chown=${USER}:${USER} --from=composer-deps /app/vendor ./vendor
+# Modules installed from Packagist are git-ignored, so they come from the install stage.
+COPY --chown=${USER}:${USER} --from=composer-deps /app/modules ./modules
 COPY --chown=${USER}:${USER} --from=frontend /app/public/build ./public/build
 
 # Copy composer files (needed for autoloader generation)

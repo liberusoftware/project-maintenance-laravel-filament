@@ -6,8 +6,20 @@
   "version": "0.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Maintenance\\Documents\\Api\\DocumentsApiServiceProvider",
-  "requires": { "php": "^8.5", "laravel": "^13.0", "packages": { "liberusoftware/module-maintenance-documents": "0.1.0" } },
-  "capabilities": ["maintenance.documents.api"],
+  "requires": {
+    "php": "^8.5",
+    "laravel": "^13.0",
+    "packages": {
+      "liberusoftware/module-maintenance-documents": "^0.1.0"
+    }
+  },
+  "capabilities": [
+    "maintenance.documents.api"
+  ],
   "default_enabled": true,
-  "features": ["Document CRUD", "Approval", "Versioning"]
+  "features": [
+    "Document CRUD",
+    "Approval",
+    "Versioning"
+  ]
 }

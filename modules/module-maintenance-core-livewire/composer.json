@@ -5,16 +5,20 @@
   "license": "MIT",
   "require": {
     "php": "^8.5",
-    "illuminate/support": "^13.0",
-    "liberusoftware/module-maintenance-maintenance-core": "0.1.0",
-    "livewire/livewire": "^4.0"
+    "illuminate/support": "^13.38.0",
+    "liberusoftware/module-maintenance-maintenance-core": "^0.1.0",
+    "livewire/livewire": "^4.4.8"
   },
   "autoload": {
     "psr-4": {
       "Liberu\\Modules\\Maintenance\\Core\\Livewire\\": "src/"
     }
   },
-  "extra": { "liberu": { "name": "module-maintenance-core-livewire" } },
+  "extra": {
+    "liberu": {
+      "name": "module-maintenance-core-livewire"
+    }
+  },
   "version": "0.1.0",
   "config": {
     "allow-plugins": {
